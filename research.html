@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research — Enrico Picco</title>
+<meta name="description" content="Doctoral and visiting research: machine learning for audio and video recognition running in real time on physical hardware.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <aside class="rail">
+    <img class="portrait" src="portrait.jpg" alt="Enrico Picco">
+    <h1>Enrico Picco, PhD</h1>
+    <p class="role">Machine learning for ecology and biodiversity</p>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="conservation.html">ML for conservation</a>
+    </nav>
+    <div class="meta">
+      <div>Piemonte, Italy</div>
+      <div><a href="mailto:enrico.picco@hotmail.it">Email</a></div>
+      <div><a href="https://github.com/e-picco">GitHub</a></div>
+      <div><a href="https://www.linkedin.com/in/enrico-picco/">LinkedIn</a></div>
+      <div><a href="https://scholar.google.com/citations?user=zZwpqk8AAAAJ&hl=en">Scholar</a></div>
+    </div>
+  </aside>
+
+  <main>
+    <h2>Research</h2>
+    <p class="lede">My doctoral work sat between machine learning, electronics and physics: neural networks that run as physical systems rather than as code on a GPU. Four themes, each with published results.</p>
+
+    <section>
+      <p class="eyebrow">Audio</p>
+      <h3>Real-time speech recognition on a physical neural network</h3>
+      <p>Spoken-digit classification running on an optoelectronic system in real time, with a deep architecture whose layers were connected analogically rather than digitally — a first for this class of hardware. I designed the models, built the processing chain, and benchmarked accuracy against the digital equivalent.</p>
+      <p class="note">This is the thread that connects most directly to bioacoustics: variable-length audio, noisy channels, classification under tight latency budgets.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Computer vision</p>
+      <h3>High-speed human action recognition in video</h3>
+      <p>The first implementation of video action classification on a physical reservoir computer, covering the full pipeline: human detection, pose estimation, feature extraction and classification, at frame rates a conventional implementation could not reach.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Method</p>
+      <h3>Optimising physical neural networks with a delayed input</h3>
+      <p>Physical learning systems are awkward to tune because their internal parameters are not freely accessible. We showed that manipulating the input signal in time alone is enough to optimise performance, which removes most of the need for hardware redesign. Published in <em>Nature Communications Engineering</em>.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Hardware</p>
+      <h3>Data acquisition and control systems</h3>
+      <p>All of the above needed an acquisition layer that did not exist: FPGA designs interfacing analog optical signals with digital processing, plus the instrumentation and control systems around them. I extended the same work as a visiting researcher at IBM Research Zurich, driving a photonic neuromorphic accelerator, and at imec Ghent, applying neural models to non-linear channel equalisation in optical telecoms.</p>
+      <p class="note">Practically: I am comfortable with sensors, embedded systems and messy real-world signal acquisition, not only with clean datasets.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Context</p>
+      <h3>POST-DIGITAL</h3>
+      <p>My PhD was part of POST-DIGITAL, a European doctoral network on next-generation computing linking academic and industrial partners across several countries. It is where I learned to work as the technical translator between people who do not share a vocabulary — and where I found I like that role.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 Enrico Picco</footer>
+</div>
+</body>
+</html>
