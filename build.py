@@ -9,7 +9,7 @@ parts in sync while the site is young.)"""
 
 from icons import ICONS
 
-ORCID = "0000-0000-0000-0000"   # <-- replace with your real ORCID iD
+ORCID = "0000-0002-3756-6097"   # <-- replace with your real ORCID iD
 
 NAV = [
     ("index.html", "About"),
