@@ -95,7 +95,7 @@ body {
 .rail { position: sticky; top: 112px; }
 
 .rail .portrait {
-  width: 132px; height: 132px;
+  width: 156px; height: 156px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
