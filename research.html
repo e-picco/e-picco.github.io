@@ -41,7 +41,7 @@
     
 	<figure class="fig">
       <img src="HAR.jpg" alt="Pipeline diagram: video input through human detection, pose estimation, feature extraction, and the photonic reservoir classifier">
-      <figcaption>End-to-end pipeline, from raw video to action classification on the reservoir computer.</figcaption>
+      <figcaption>End-to-end pipeline, from raw video to action classification.</figcaption>
     </figure> 
 	
 	<p class="pub">
@@ -51,31 +51,51 @@
     </p>
 	</section>
 
+
     <section>
       <p class="eyebrow">Audio</p>
       <h3>Real-time speech recognition on a physical neural network</h3>
-      <p>Spoken-digit classification running on an optoelectronic system in real time, with a deep architecture whose layers were connected analogically rather than digitally — a first for this class of hardware. I designed the models, built the processing chain, and benchmarked accuracy against the digital equivalent.</p>
-      <p class="note">This is the thread that connects most directly to bioacoustics: variable-length audio, noisy channels, classification under tight latency budgets.</p>
-    </section>
+      <p>In this project we used deep neural architectures to classify spoken digits. The classification run on an optoelectronic system in real time, with a deep architecture whose layers were connected analogically rather than digitally, for the first time on this class of hardware.</p>
+    
+	<figure class="fig">
+      <img src="DRC.png" alt="Deep configuration of a reservoir computer, a recurrent neural network">
+      <figcaption>Deep configuration of a reservoir computer, a recurrent neural network.</figcaption>
+    </figure> 
+	
+ 
+    <p class="pub">
+      <strong>Picco, E.</strong>, Lupo, A. &amp; Massar, S. "Deep photonic reservoir computer for speech recognition." <span class="venue">IEEE Transactions on Neural Networks and Learning Systems</span> 36.4 (2024): 7606–7614.
+      <span class="links"><a href="https://doi.org/10.1109/TNNLS.2024.3400451" target="_blank" rel="noopener">[DOI]</a></span>
+	  <span class="links"><a href="https://arxiv.org/abs/2312.06558" target="_blank" rel="noopener">[arXiv]</a></span>
+    </p>
+	
+	</section>
+	
 
     <section>
       <p class="eyebrow">Method</p>
       <h3>Optimising physical neural networks with a delayed input</h3>
-      <p>Physical learning systems are awkward to tune because their internal parameters are not freely accessible. We showed that manipulating the input signal in time alone is enough to optimise performance, which removes most of the need for hardware redesign. Published in <em>Nature Communications Engineering</em>.</p>
-    </section>
+      <p>Physical learning systems are awkward to tune because their internal parameters are not freely accessible. We showed a much easier way to optimise performance: with only a simple manipulation of the input signal in time.</p>
+    
+	<figure class="fig">
+      <img src="DLY.png" alt="Deep configuration of a reservoir computer, a recurrent neural network">
+    </figure> 
+	
+   <p class="pub">
+    <strong>Picco, E.</strong>, Jaurigue, L., L&uuml;dge, K. &amp; Massar, S. "Efficient optimisation of physical reservoir computers using only a delayed input." <span class="venue">Nature Communications Engineering</span> 4.1 (2025): 3.
+    <span class="links"><a href="https://doi.org/10.1038/s44172-025-00340-6" target="_blank" rel="noopener">[DOI]</a></span>
+	<span class="links"><a href="https://arxiv.org/abs/2401.14371" target="_blank" rel="noopener">[arXiv]</a></span>
+   </p>
+	
+	</section>
 
     <section>
       <p class="eyebrow">Hardware</p>
       <h3>Data acquisition and control systems</h3>
-      <p>All of the above needed an acquisition layer that did not exist: FPGA designs interfacing analog optical signals with digital processing, plus the instrumentation and control systems around them. I extended the same work as a visiting researcher at IBM Research Zurich, driving a photonic neuromorphic accelerator, and at imec Ghent, applying neural models to non-linear channel equalisation in optical telecoms.</p>
-      <p class="note">Practically: I am comfortable with sensors, embedded systems and messy real-world signal acquisition, not only with clean datasets.</p>
+      <p>I am comfortable with sensors, embedded systems and messy real-world signal acquisition, not only with clean datasets. All of the projects above needed an acquisition layer that did not exist. I designed from scratch the FPGA and hardware to interface analog optical signals with digital processing plus the instrumentation and control systems around them. I extended the same work as a visiting researcher at IBM Research Zurich, driving a neuromorphic accelerator.</p>
     </section>
 
-    <section>
-      <p class="eyebrow">Context</p>
-      <h3>POST-DIGITAL</h3>
-      <p>My PhD was part of POST-DIGITAL, a European doctoral network on next-generation computing linking academic and industrial partners across several countries. It is where I learned to work as the technical translator between people who do not share a vocabulary — and where I found I like that role.</p>
-    </section>
+
   </main>
 
   <footer>© 2026 Enrico Picco</footer>
